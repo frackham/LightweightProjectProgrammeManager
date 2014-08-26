@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EXTJS TEST</title><!--TODO: Add title -->
+
+  <!-- 
+  Javascript libraries:
+  (1) extjs - used to provide the 'app' framework. [www.sencha.com/products/extjs/]
+  (2) jQuery - used for extending javascript and providing helpers for common functionality. [jquery.com/]
+  (3) QUnit - jQuery unit testing. []
+  (3CSS) CSS for QUnit.
+  
+  Core Javascript:
+  (A) ??.js - core logic.
+  (B) tests.js - QUnit unit tests. Loads last, per QUnit docs.
+  (C) data.js - Persistence placeholder. Writes a logging note to console at the moment.
+  -->
+  
+  <!-- (1) -->
+  <!--<script type="text/javascript" src="/src/lib/qunit-1.15.0.js"></script>  -->
+  
+  <!-- END (1) -->
+  <link rel="stylesheet" href="src/core/core.css"><!-- (3CSS) -->
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script> <!-- (2) -->
+  <script type="text/javascript" src="src/lib/qunit-1.15.0.js"></script> <!-- (3) -->
+  <link rel="stylesheet" href="src/lib/qunit-1.15.0.css"><!-- (3CSS) -->
+
+  <script type="text/javascript" src="data/data.js"></script> <!-- (3) -->
+  
+
+</head>
+<body>
+  <h1>EXT JS TEST</h1><!--TODO: Add title -->
+
+  
+
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+
+
+  <script src="src/tests/tests.js"></script> <!-- (B) -->
+</body>
+</html> 
