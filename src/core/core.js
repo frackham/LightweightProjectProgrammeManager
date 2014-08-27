@@ -11,8 +11,16 @@ $( document ).ready(function() {
     items: [
       {
       title: 'Details', 
-      html: '<h2>mainPanel 1 title</h2><p>Paragraph of stuff here...</p>'
+      html: '<h2>Dashboard</h2><p>Paragraph of stuff here...</p>'
+       }, {
+      title: 'Tab 2', 
+      html: '<h2>Edit Dashboard Areas</h2><p>Paragraph of stuff here...</p><p>probably hide this until data layer exists.</p>'
+       }, {
+      title: 'tab 3', 
+      html: '<h2>projects</h2><p>should be further offset to right...</p><p>use firefly layout</p>'
        }
+
+
      ]
    });
 
@@ -23,6 +31,9 @@ $( document ).ready(function() {
       mainContainer.doLayout();
     }
   });
+
+
+
 
   var mainContainer = Ext.create
     ('Ext.container.Container', {
