@@ -7,11 +7,11 @@
 */
 QUnit.config.autostart = false;
 QUnit.begin(function(){
-if (window.console) console.log('Beginning QUnit Tests.'); //Callback fired when QUnit begins. Useful for tracing whether QUnit is working...
+  if (window.console) console.log('Beginning QUnit Tests.'); //Callback fired when QUnit begins. Useful for tracing whether QUnit is working...
 });
 
 QUnit.done(function(){
-if (window.console) console.log('Finished QUnit Tests.'); //Callback fired when QUnit ends. Useful for tracing whether QUnit is working...
+  if (window.console) console.log('Finished QUnit Tests.'); //Callback fired when QUnit ends. Useful for tracing whether QUnit is working...
 });
 //END CONFIG.
 
@@ -39,4 +39,3 @@ QUnit.test( "hello test3", function( assert ) {
 
 
 
-QUnit.start();
